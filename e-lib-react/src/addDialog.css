@@ -1,0 +1,16 @@
+.addDialogEntry{
+    margin: 0.5rem;
+}
+
+.addDialogEntries{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+}
+
+#dialogTitle{
+    align-self: center;
+    margin-top: 0.5rem;
+}

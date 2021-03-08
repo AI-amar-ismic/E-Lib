@@ -1,0 +1,22 @@
+.panelContainer{
+    width: 14rem;
+    height: 15rem;
+    margin-left: 5rem;
+    background-color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userSelector{
+    width: 10rem;
+    margin-bottom: 2rem;
+}
+
+#titleOnPanel{
+    margin-bottom: 1rem;
+}
+
+.assignButton:hover{
+    background-color: #1abc9c;
+}

@@ -1,0 +1,113 @@
+td img{
+    width: 150px;
+}
+
+.searchAndViewSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 50rem;
+}
+
+.viewControls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 4rem;
+}
+
+.controlIcon{
+    color: #34495e;
+    padding: 0.3rem;
+}
+
+.controlIcon:hover{
+    background-color: #bdc3c7;
+}
+
+.searchAndViewSection input{
+    border-color: #1abc9c;
+}
+
+.listView{
+    margin: 2rem 0 0 2rem;
+}
+
+.listImage{
+    max-width: 7rem;
+}
+
+.homeScreenContent{
+    display: flex;
+    flex-direction: column;
+    width: 55rem;
+}
+
+#genreSelector{
+    min-width: 10rem;
+}
+
+.gridViewContainer{
+   margin: 2rem 0 0 2rem;
+   display: flex;
+   flex-wrap: wrap;
+   width: 55rem;
+}
+
+.gridView{
+    margin-bottom: 1rem;
+    width: 25rem;
+    height: 9rem;
+    display: flex;
+    margin-right: 2rem;
+    align-items:center;
+}
+
+.gridView img{
+    max-width: 9rem;
+    margin-right: 1rem;
+}
+
+.contentContainer{
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+
+
+.addButton:hover{
+    background-color: #1abc9c;
+}
+
+.deleteBookIcon{
+    margin-left: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 3px;
+}
+
+.deleteBookIcon:hover{
+    background-color: #1abc9c;
+    color: white;
+}
+
+.editBookIcon{
+    margin-left: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 3px;
+}
+
+.editBookIcon:hover{
+    background-color: #1abc9c;
+    color: white;
+}
+
+.actionsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.homeScreenSuper{
+    display: flex;
+}
+
